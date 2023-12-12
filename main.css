@@ -30,6 +30,10 @@ img {
   font-family: "Poppins 600";
   src: url(./Poppins/Poppins-SemiBold.ttf);
 }
+@font-face {
+  font-family: "Poppins 400";
+  src: url(./Poppins/Poppins-Regular.ttf);
+}
 #skills{
   width: 100%;
   margin-top: 50px;
@@ -50,6 +54,9 @@ img {
   justify-content: space-between;
   margin-top: 50px;
 
+}
+#skills .card__mobile{
+  display: none;
 }
 #skills .card{
   width: 35%;
@@ -167,3 +174,458 @@ img {
   width: 35%;
   height: auto;
 }
+@media only screen and (max-width: 1160px) {
+  #skills .btn{
+    padding: 15px 40px;
+  }
+  #skills h2{
+    font-size: 22px;
+  }
+  #skills p{
+    font-size: 14px;
+  }
+  #skills .cards .writing img{
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #skills .btn{
+    padding: 13px 30px;
+  }
+  #skills h2{
+    font-size: 20px;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  #skills .cards .writing img{
+    margin-left: 50px;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 150px;
+    
+  }
+}
+@media only screen and (max-width: 957px) {
+  #skills .btn{
+    padding: 13px 30px;
+  }
+  #skills h2{
+    font-size: 20px;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  #skills .cards .listening .listening__text{
+    font-size: 12px;
+  }
+  #skills .cards .listening .listening__text p{
+    width: 100%;
+  }
+  #skills .cards .listening img{
+    width: 38%;
+    height: auto;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 150px;
+    
+  }
+}
+@media only screen and (max-width: 832px) {
+  #skills .btn{
+    padding: 13px 30px;
+  }
+  #skills .btn__writing{
+    margin-left: 30px;
+  }
+  #skills h1{
+    font-size: 36px;
+  }
+  #skills h2{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 70%;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    margin-left: 20px;
+    width: 60%;
+  }
+  #skills .cards .speaking .speaking__text{
+    font-size: 12px;
+    margin-left: -15px;
+  }
+  #skills .cards .listening .listening__text{
+    width: 65%;
+    font-size: 12px;
+    margin-left: -10px;
+  }
+  #skills .cards .listening .listening__text p{
+    width: 100%;
+  }
+  #skills .cards .listening img{
+    width: 33%;
+    height: auto;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 150px;
+    
+  }
+  #skills .skills .cards .speaking img{
+    width: 80%;
+    height: auto;
+  }
+  #skills .skills .cards .writing img{
+    margin-left: 30px;
+    width: 80%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 782px) {
+  #skills .btn{
+    padding: 13px 30px;
+  }
+  #skills h2{
+    font-size: 20px;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  
+  #skills .cards .listening .listening__text{
+    width: 60%;
+    height: 250px;
+  }
+  #skills .cards .listening .listening__text p{
+    width: 100%;
+  }
+  #skills .cards .listening img{
+    width: 35%;
+    height: auto;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 150px;
+    
+  }
+  #skills .skills .cards .speaking img{
+    width: 80%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 745px) {
+  #skills .btn{
+    padding: 13px 30px;
+  }
+  #skills h1{
+    font-size: 24px;
+  }
+  #skills h2{
+    font-size: 20px;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  #skills .skills .cards{
+    display: none;
+  }
+  #skills .skills .card{
+    display: block;
+  }
+  #skills .skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  #skills .cards .listening .listening__text{
+    width: 60%;
+    height: 250px;
+  }
+  #skills .cards .listening .listening__text p{
+    width: 100%;
+  }
+  #skills .cards .listening img{
+    width: 35%;
+    height: auto;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 20px;
+    
+  }
+  #skills .skills .cards .speaking img{
+    width: 80%;
+    height: auto;
+  }
+  #skills .skills .card{
+    width: 47%;
+    height: 534px;
+  }
+  #skills .skills .card img{
+    width: 200px;
+    height: auto;
+    margin: 5px auto;
+  }
+  #skills .skills .card h2{
+    font-size: 18px;
+    font-family: "Poppins 400";
+    margin-top: 0px;
+    line-height: 40px;
+  }
+  #skills .skills .card p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  #skills .skills .card .btn{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    padding: 10px 35px;
+  }
+}
+@media only screen and (max-width: 478px) {
+  #skills .btn{
+    padding: 13px 30px;
+  }
+  #skills h1{
+    font-size: 24px;
+  }
+  #skills h2{
+    font-size: 20px;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  #skills .skills .cards{
+    display: none;
+  }
+  #skills .skills .card{
+    display: block;
+  }
+  #skills .skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 20px;
+    
+  }
+  #skills .skills .cards .speaking img{
+    width: 80%;
+    height: auto;
+  }
+  #skills .skills .card{
+    width: 47%;
+    height: 534px;
+    position: relative;
+  }
+  #skills .skills .card img{
+    width: 180px;
+    height: auto;
+    margin: 5px auto;
+    position: absolute;
+  }
+  #skills .skills .card h2{
+    font-size: 18px;
+    font-family: "Poppins 400";
+    margin-top: 0px;
+    line-height: 40px;
+    position: absolute;
+    top: 180px;
+    left: -15px;
+  }
+  #skills .skills .card p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    position: absolute;
+    top: 215px;
+    left: -15px;
+  }
+  #skills .skills .card .btn{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    padding: 10px 35px;
+    position: absolute;
+    left: -15px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  #skills .btn{
+    padding: 14px 43px;
+  }
+  #skills h1{
+    font-size: 24px;
+  }
+  #skills h2{
+    font-size: 20px;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  #skills .skills .cards{
+    display: none;
+  }
+  #skills .skills .card{
+    display: block;
+  }
+  #skills .skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 20px;  
+  }
+  #skills .skills .card{
+    width: 90%;
+    height: 534px;
+    position: relative;
+  }
+  #skills .skills .card img{
+    width: 70%;
+    height: auto;
+    margin: 5px 15%;
+    position: absolute;
+  }
+  #skills .skills .card h2{
+    font-size: 18px;
+    font-family: "Poppins 400";
+    margin-top: 0px;
+    line-height: 40px;
+    position: absolute;
+    top: 230px;
+    left: -15px;
+  }
+  #skills .skills .card p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    position: absolute;
+    top: 265px;
+    left: -15px;
+  }
+  #skills .skills .card .btn{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    padding: 10px 35px;
+    position: absolute;
+    left: -15px;
+  }
+}
+
+@media only screen and (max-width: 294px) {
+  #skills .btn{
+    padding: 14px 43px;
+  }
+  #skills h1{
+    font-size: 24px;
+  }
+  #skills h2{
+    font-size: 20px;
+  }
+  #skills p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+  }
+  #skills .skills .cards{
+    display: none;
+  }
+  #skills .skills .card{
+    display: block;
+  }
+  #skills .skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  #skills .card{
+    position: relative;
+  }
+  #skills .card .btn__card{
+    position: absolute;
+    bottom: 20px;  
+  }
+  #skills .skills .card{
+    width: 90%;
+    height: 534px;
+    position: relative;
+  }
+  #skills .skills .card img{
+    width: 70%;
+    height: auto;
+    margin: 5px 15%;
+    position: absolute;
+  }
+  #skills .skills .card h2{
+    font-size: 18px;
+    font-family: "Poppins 400";
+    margin-top: 0px;
+    line-height: 40px;
+    position: absolute;
+    top: 180px;
+    left: -15px;
+  }
+  #skills .skills .card p{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    position: absolute;
+    top: 215px;
+    left: -15px;
+  }
+  #skills .skills .card .btn{
+    font-size: 12px;
+    font-family: "Poppins 400";
+    padding: 10px 35px;
+    position: absolute;
+    left: -15px;
+  }
+}
+
