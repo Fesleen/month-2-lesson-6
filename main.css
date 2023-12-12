@@ -1,28 +1,169 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
-  box-sizing: inherit;
-  height: 100%;
+    box-sizing: inherit;
+    height: 100%;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
 }
 
 img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 .container{
     max-width: 1160px;
     width: 100%;
     margin: 0 auto;
     padding: 0 10px;
+}
+@font-face {
+  font-family: "Poppins 600";
+  src: url(./Poppins/Poppins-SemiBold.ttf);
+}
+#skills{
+  width: 100%;
+  margin-top: 50px;
+}
+#skills h1{
+  color: #000;
+  font-family: "Poppins 600";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; 
+  text-align: center;
+}
+#skills .skills{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+#skills .card{
+  width: 35%;
+  height: 894px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  position: relative;
+}
+#skills .card img{
+  width: 220px;
+  height: 220px;
+  margin: 35px 22.5px;
+}
+#skills .card h2{
+  color: #263238;
+  font-family: "Poppins 600";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  margin-left: 43px;
+}
+#skills .card p{
+  width: 80%;
+  color: #8F95A5;
+  font-family: "Poppins 600";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 43px;
+  height: 250px;
+}
+.btn{
+  padding: 17px 64px;
+  border-radius: 5px;
+  background: #263238;
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Poppins 600";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 43px;
+}
+.btn__card{
+  bottom: 210px;
+  position: absolute;
+}
+#skills .cards{
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  flex-wrap: wrap;
+}
+#skills .cards .writing{
+  width: 45%;
+  height: 532px;
+  position: relative;
+}
+#skills .cards .writing img{
+  width: 193px;
+  height: 193px;
+  margin-left: 110px;
+}
+#skills .cards .writing h2{
+  width: 293px;
+  height: 293px;
+}
+#skills .cards .writing .btn__writing{
+  bottom: 35px;
+  position: absolute;
+} 
+#skills .cards .speaking{
+  width: 45%;
+  height: 532px;
+}
+#skills .cards .speaking img{
+  width: 193px;
+  height: 163px;
+  /* margin-top: -10px;
+  margin-left: -20px; */
+}
+#skills .cards .speaking h2{
+  line-height: 60px;
+}
+#skills .cards .speaking .btn__speaking{
+  position: absolute;
+  bottom: 35px;
+}
+#skills .cards .listening{
+  width: 93%;
+  height: 343px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+#skills .cards .listening .listening__text{
+  width: 60%;
+  height: 200px;
+  position: relative;
+}
+#skills .cards .listening .listening__text h2{
+  line-height: 60px;
+}
+#skills .cards .listening .listening__text .btn__listening{
+  position: absolute;
+  bottom: -20px;
+}
+#skills .cards .listening .listening__text img{
+  width: 35%;
+  height: auto;
 }
