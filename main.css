@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+ body {
     box-sizing: inherit;
     height: 100%;
 }
@@ -25,11 +26,17 @@ body {
 
 /* header start */
 .header__cards {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.header__cards img{
+  margin: 0;
+  padding: 0;
+}
 .header__cards--list {
   width: 40%;
   display: flex;
@@ -173,16 +180,6 @@ body {
     display:none;
   }
   
-}
-img {
-    display: block;
-    width: 100%;
-}
-.container{
-    max-width: 1160px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 10px;
 }
 @font-face {
   font-family: "Poppins 600";
